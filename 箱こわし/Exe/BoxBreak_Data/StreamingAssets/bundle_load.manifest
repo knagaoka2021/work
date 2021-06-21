@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 409413109
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 127fa4037a79f660ae230750110ef485
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Data/Load/Stage04.bytes
+- Assets/Data/Load/Stage02.bytes
+- Assets/Data/Load/Stage01.bytes
+- Assets/Data/Load/Stage05.bytes
+- Assets/Data/Load/Stage06.bytes
+- Assets/Data/Load/Stage03.bytes
+- Assets/Data/Load/StageSelectUISave.bytes
+Dependencies: []

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &165401628241473787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165401628241473786}
+  - component: {fileID: 165401628241473785}
+  - component: {fileID: 5099986926608588973}
+  - component: {fileID: -5025634711797140278}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &165401628241473786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165401628241473787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &165401628241473785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165401628241473787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c8f29b78cf5814081f97ad838d4a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _areaNum: 100
+  _areaLength: 10
+  _draw: 1
+  _move: 0
+  _swap: {x: 0, y: 0, z: 0}
+  _reset: {x: 0, y: 0, z: 0}
+  _speed: 0.05
+--- !u!114 &5099986926608588973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165401628241473787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b68595d35294ed14e91c1dc92b29a18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_mapAreaSerial:
+    list:
+    - key: CUBE
+      value: {fileID: 6713302940890180031, guid: 0fdd303a842b8ba4a92a94e0d839e696,
+        type: 3}
+    - key: SPHERE
+      value: {fileID: 8548787945984129702, guid: a3274aa8863534d469ed56a2612cef5a,
+        type: 3}
+    - key: CYLINDER
+      value: {fileID: 7370207997449423079, guid: fe917b8be46aa9e4ca478aa6d5b316b6,
+        type: 3}
+    - key: PLANE
+      value: {fileID: 5575845463733061273, guid: aff180a4de2143341b4f69b6c6f9627c,
+        type: 3}
+    - key: PLANE_PARTICAL
+      value: {fileID: 6072197621944368981, guid: 7cf3da06c509cca4e9dd2e53042defee,
+        type: 3}
+--- !u!114 &-5025634711797140278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165401628241473787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df87c453d8fdd4e4b8baefba4a022e0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

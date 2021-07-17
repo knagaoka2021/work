@@ -1,9 +1,11 @@
 # 3DMapTool
 
 ## SCREENSHOT
-![](2021-07-15-00-22-20.png)
-![](2021-07-15-00-25-51.png)
-![](2021-07-15-00-27-05.png)
+![2021-07-15-00-22-20](https://user-images.githubusercontent.com/86211525/125655538-c52a71e5-dddc-479c-b4d5-fd3e4f29d577.png)
+![2021-07-15-00-25-51](https://user-images.githubusercontent.com/86211525/125655546-c646d7c5-1fe6-4041-992c-843cb6118ec6.png)
+![2021-07-15-00-27-05](https://user-images.githubusercontent.com/86211525/125655598-176456f9-ece1-4ec3-878f-03b5a10a50ec.png)
+
+
 
 ## USE
 - 生成数
@@ -39,11 +41,11 @@
 - やり直しボタン
     - 編集操作後の内容を一つやり直す※選択オブジェクト内のみ (SHIFT+Y)
 
-- Pos(X,Y,X)
+- Pos(X,Y,Z)
     - 選択オブジェクト位置座標値 入力編集
-- Rot(X,Y,X)
+- Rot(X,Y,Z)
     - 選択オブジェクト回転値 入力編集
-- Scl(X,Y,X)
+- Scl(X,Y,Z)
     - 選択オブジェクト拡大値 入力編集
 - MOVE
     - 編集モードで平行移動
@@ -70,3 +72,13 @@
         - カメラ平行移動
     - マウスホイール
         - カメラ前方後方移動
+
+## モデル追加
+Unityでプロジェクトを開き  
+パス"Assets\Data\Prefab\Map"  
+プレハブ MapManager内のSerializableMapAreaにプレハブ追加  
+- ルール：
+    - Key名と追加するプレハブ名を統一する。
+    - Valueは追加するプレハブ
+    - Layerを8に設定する。
+    - 子階層があるプレハブはRootオブジェクトにコライダーコンポーネントを追加する。
